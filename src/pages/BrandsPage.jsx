@@ -8,6 +8,7 @@ export default function BrandsPage() {
   const [brands, setBrands] = useState([]);
   const [loading, setLoading] = useState(true);
 // test2
+// test2
   useEffect(() => {
     async function load() {
       try {
