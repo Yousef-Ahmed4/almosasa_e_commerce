@@ -31,4 +31,4 @@ jobs:
           username: ${{ secrets.FTP_USER_ALMUDER }}
           password: ${{ secrets.FTP_PASS_ALMUDER }}
           local-dir: dist/
-          server-dir: public_html/erp/
+          server-dir: erp/
