@@ -41,7 +41,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="text-4xl sm:text-5xl lg:text-7xl font-black text-white leading-[1.2] tracking-tight"
           >
-            اكتشف منتجات
+           كثيرة اكتشف منتجات
             <br />
             <span className="bg-gradient-to-r from-accent-300 to-accent-500 bg-clip-text text-transparent">
               تلهم حياتك
