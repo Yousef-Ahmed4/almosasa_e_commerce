@@ -1,0 +1,1497 @@
+{
+  "info": {
+    "_postman_id": "15638d87-b4f4-437f-bfc3-f01fc37d87bb",
+    "name": "Almoasasa App",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40810492",
+    "_collection_link": "https://go.postman.co/collection/40810492-15638d87-b4f4-437f-bfc3-f01fc37d87bb?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "register",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {}
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "client 120",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "1234540",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "online1@exaple2.com",
+                  "type": "text"
+                },
+                {
+                  "key": "company_id",
+                  "value": "262",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "password",
+                  "type": "text"
+                },
+                {
+                  "key": "birth_date",
+                  "value": "1990-01-01",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "gender",
+                  "value": "male",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "how_you_know_us",
+                  "value": "app ",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address",
+                  "value": "address eng",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "group_id",
+                  "value": "2",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "id_number",
+                  "value": "ABC123",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "work_phone",
+                  "value": "+98765432102",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "gender",
+                  "value": "male",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "job_name",
+                  "value": "SoftwareEngineer",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "favorite_employee_id",
+                  "value": "111",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "crn",
+                  "value": "CRN12345",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "trn",
+                  "value": "TRN67890",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "note",
+                  "value": "Thisisanote",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "status",
+                  "value": "1",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "is_client",
+                  "value": "on",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "cache",
+                  "value": "off",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "internet",
+                  "value": "on",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "fingerprint",
+                  "value": "on",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address_line_ar",
+                  "value": "عنوان عربي",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address_line_en",
+                  "value": "address eng",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "country_id",
+                  "value": "1",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "city_id",
+                  "value": "71",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "area_id",
+                  "value": "131",
+                  "type": "text"
+                },
+                {
+                  "key": "post_code",
+                  "value": "100",
+                  "type": "text"
+                },
+                {
+                  "key": "special",
+                  "value": "1",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "longitude",
+                  "value": "151",
+                  "type": "text",
+                  "uuid": "7ac0a80e-92c7-40ab-93a1-dee4c189a683"
+                },
+                {
+                  "key": "latitude",
+                  "value": "80",
+                  "type": "text",
+                  "uuid": "77fc4dcf-0f81-46ab-8cc7-cd04660bc023"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/auth/register",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"phone\": \"01234567811\",\r\n    \"password\": \"123456\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/auth/login",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get authenticated client",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "4452|fPAImMMrwYuz1EBCDqf7o1AYs1bIGBiGf7rMRdwN96863ee7",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/profile",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "profile"
+              ],
+              "query": [
+                {
+                  "key": "wallet",
+                  "value": "1",
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get app info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/app_info?type=About",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "app_info"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "About",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get settings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/settings",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "settings"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update client profile",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Updated Client Name\",\r\n    \"phone\": \"+971501234567\",\r\n    \"email\": \"updated.client@example.com\",\r\n    \"id_number\": \"784199012345678\",\r\n    \"address_id\": 15,\r\n    \"birth_date\": \"1985-05-15\",\r\n    \"work_phone\": \"+97142345678\",\r\n    \"job_name\": \"Updated Job Title\",\r\n    \"note\": \"Updated client notes\",\r\n    \"longitude\": \"Updated client notes\",\r\n    \"latitude\": \"Updated client notes\",\r\n\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/profile",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "profile"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "logout",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "4336|eLtwkeFHg8nBLdjAY3AfXZWRL4hjqP2JMJYhP8uF53f47842",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/user/logout",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "user",
+                "logout"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "locations",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/locations",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "locations"
+              ],
+              "query": [
+                {
+                  "key": "location",
+                  "value": "1",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Password",
+      "item": [
+        {
+          "name": "send code",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "the auth email@gmail.com",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/forget-password/send-code",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "forget-password",
+                "send-code"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "check code",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "code",
+                  "value": "316033",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/forget-password/check-code",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "forget-password",
+                "check-code"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "reset password",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "_method",
+                  "value": "patch",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "yoseffahmey@gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "code",
+                  "value": "316033",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "password1",
+                  "type": "text"
+                },
+                {
+                  "key": "password_confirmation",
+                  "value": "password1",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/forget-password/reset-password",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "forget-password",
+                "reset-password"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "item": [
+        {
+          "name": "get all products",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/products?type=sale&page=5&price_sort=desc",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "sale",
+                  "description": "always sale"
+                },
+                {
+                  "key": "search",
+                  "value": "aaa",
+                  "description": "search in name and description and code",
+                  "disabled": true
+                },
+                {
+                  "key": "category_id",
+                  "value": "61",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "price_from",
+                  "value": "0",
+                  "disabled": true
+                },
+                {
+                  "key": "price_to",
+                  "value": "5",
+                  "disabled": true
+                },
+                {
+                  "key": "producing_company_id",
+                  "value": "108",
+                  "disabled": true
+                },
+                {
+                  "key": "page",
+                  "value": "5"
+                },
+                {
+                  "key": "per_page",
+                  "value": "100",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "sort_by_producing_company",
+                  "value": "asc",
+                  "disabled": true
+                },
+                {
+                  "key": "price_sort",
+                  "value": "desc",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get all producing_companies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/producing_companies",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "producing_companies"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/products/252",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "products",
+                "252"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "categories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/categories",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "categories"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Favorites",
+      "item": [
+        {
+          "name": "get all favorites",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/favorites",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "favorites"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add to favorites",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "product_id",
+                  "value": "231",
+                  "type": "text",
+                  "uuid": "4892c449-8e92-4757-b61d-8867132a921a"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/favorites?product_id=231",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "favorites"
+              ],
+              "query": [
+                {
+                  "key": "product_id",
+                  "value": "231",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete from favorites",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"product_id\": 231\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/favorites",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "favorites"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "is fav",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/favorites/check/232",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "favorites",
+                "check",
+                "232"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Notification",
+      "item": [
+        {
+          "name": "get all notifications",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/notifications",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "notifications"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add to notifications",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "product_id",
+                  "value": "231",
+                  "type": "text",
+                  "uuid": "4892c449-8e92-4757-b61d-8867132a921a",
+                  "disabled": true
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/notifications",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "notifications"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "auth": {
+        "type": "bearer",
+        "bearer": [
+          {
+            "key": "token",
+            "value": "6250|mEvpkN0I5qgpzKpRuwvWtn4a3mI8gBzr5zovBGqo07d3c789",
+            "type": "string"
+          }
+        ]
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {},
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {},
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "common qustions",
+      "item": [
+        {
+          "name": "common qustions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add to notifications",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "question",
+                  "value": "q1",
+                  "type": "text",
+                  "uuid": "4892c449-8e92-4757-b61d-8867132a921a"
+                },
+                {
+                  "key": "answer",
+                  "value": "ans 1",
+                  "type": "text",
+                  "uuid": "465501cc-6973-499c-96d1-ad84187429ca"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/common-questions",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "common-questions"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Contact_Us",
+      "item": [
+        {
+          "name": "get all contact-us massages",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/contact-us",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "contact-us"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add to contact-us massages",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "massage",
+                  "value": "help!",
+                  "type": "text",
+                  "uuid": "4892c449-8e92-4757-b61d-8867132a921a"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/contact-us",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "contact-us"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete from contact-us massages",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"product_id\": 231\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/contact-us/1",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "contact-us",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "item": [
+        {
+          "name": "get all cart items",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "5718|wIMnEJc2hgly7tovEz8v30g1s5ERJefVLiI7S2pn2d024a7f",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/cart",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "cart"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add to cart",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "product_id",
+                  "value": "266",
+                  "type": "text"
+                },
+                {
+                  "key": "unit_id",
+                  "value": "65",
+                  "type": "text"
+                },
+                {
+                  "key": "price",
+                  "value": "30",
+                  "type": "text"
+                },
+                {
+                  "key": "quantity",
+                  "value": "3",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/cart",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "cart"
+              ],
+              "query": [
+                {
+                  "key": "product_id",
+                  "value": "175",
+                  "disabled": true
+                },
+                {
+                  "key": "unit_id",
+                  "value": "53",
+                  "disabled": true
+                },
+                {
+                  "key": "price",
+                  "value": "30",
+                  "disabled": true
+                },
+                {
+                  "key": "quantity",
+                  "value": "2",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete from cart",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"product_id\": 231\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/cart/:empty",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "cart",
+                ":empty"
+              ],
+              "variable": [
+                {
+                  "key": "empty",
+                  "value": "empty"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update cart",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/cart/1?quantity=2&price=300",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "cart",
+                "1"
+              ],
+              "query": [
+                {
+                  "key": "quantity",
+                  "value": "2",
+                  "type": "text"
+                },
+                {
+                  "key": "price",
+                  "value": "300",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "replace_cart",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"items\": [\r\n    {\r\n      \"product_id\": 175,\r\n      \"unit_id\": 53,\r\n      \"quantity\": 3,\r\n      \"price\": 30.00\r\n    },\r\n    {\r\n      \"product_id\": 266,\r\n      \"unit_id\": 65,\r\n      \"quantity\": 3,\r\n      \"price\": 50.00\r\n    }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/cart/replace_cart",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "cart",
+                "replace_cart"
+              ],
+              "query": [
+                {
+                  "key": "product_id",
+                  "value": "175",
+                  "disabled": true
+                },
+                {
+                  "key": "unit_id",
+                  "value": "53",
+                  "disabled": true
+                },
+                {
+                  "key": "price",
+                  "value": "30",
+                  "disabled": true
+                },
+                {
+                  "key": "quantity",
+                  "value": "2",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Branch",
+      "item": [
+        {
+          "name": "get all branches",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/branches",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "branches"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/branches/79",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "branches",
+                "79"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Sales Bill",
+      "item": [
+        {
+          "name": "All bills",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/bills",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "bills"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "show bill details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/bills/6209",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "bills",
+                "6209"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "store new bill",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "4646|zvQ49eCg1AROgtoekQaJCdIkK01l9TjfwmYUqZ6h97a7387e",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"bill_products\": [\r\n    {\r\n      \"product_id\": \"372\",\r\n      \"unit_id\": \"115\",\r\n      \"price\": \"658.0\",\r\n      \"quantity\": \"2\"\r\n    },\r\n    {\r\n      \"product_id\": \"373\",\r\n      \"unit_id\": \"115\",\r\n      \"price\": \"658.0\",\r\n      \"quantity\": \"3\"\r\n    }\r\n   \r\n  ],\r\n  \"bill_details\": {\r\n    \"note\": \"notes\",\r\n    \"date_of_supply\": \"2025-08-25\",\r\n    \"release_date\": \"2025-08-25\"\r\n  }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{public}}/app/bills/sales/invoice",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "bills",
+                "sales",
+                "invoice"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "return",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "bill_id",
+                  "value": "6419",
+                  "type": "text",
+                  "uuid": "fd4ca1e2-e2ac-41af-8c34-9112c2eb099e"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{public}}/app/bills/return/sales",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "bills",
+                "return",
+                "sales"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Offers",
+      "item": [
+        {
+          "name": "All offers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/offers",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "offers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "All offers Copy",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{public}}/app/special-offers",
+              "host": [
+                "{{public}}"
+              ],
+              "path": [
+                "app",
+                "special-offers"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "6043|HDfBF2UjRdqFXwif07rgTjDz7C7GsCUm5uq3MuTo59565fe8",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "public0",
+      "value": "",
+      "disabled": true
+    },
+    {
+      "key": "public",
+      "value": "https://erpapi.almoasasa-app.com/api"
+    }
+  ]
+}
