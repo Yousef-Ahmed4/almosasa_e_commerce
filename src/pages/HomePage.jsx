@@ -41,6 +41,7 @@ export default function HomePage() {
             to="/products"
             className="group inline-flex items-center justify-center px-6 py-3 bg-white text-primary-600 font-bold rounded-xl shadow-sm hover:shadow-md border border-surface-200 hover:border-primary-200 hover:bg-primary-50 transition-all text-sm whitespace-nowrap"
           >
+            
             عرض جميع المنتجات
             <svg className="w-5 h-5 mr-2 rotate-180 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />

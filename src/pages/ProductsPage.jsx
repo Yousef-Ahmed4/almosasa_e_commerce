@@ -19,7 +19,7 @@ export default function ProductsPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-3xl sm:text-4xl font-black text-surface-900"
         >
-          المنتجات
+          جميع المنتجات
         </motion.h1>
       </div>
 
